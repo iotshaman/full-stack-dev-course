@@ -1,0 +1,21 @@
+{
+	"name": "sample-database",
+	"version": "1.0.2",
+	"description": "Scaffolded using shaman-cli.",
+	"main": "dist/index.js",
+	"private": true,
+	"scripts": {
+		"build": "tsc",
+		"build:db": "mysql-shaman build sample_db testuser",
+		"scaffold": "mysql-shaman scaffold"
+	},
+	"author": "Shaman CLI",
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@types/node": "^14.14.10",
+		"typescript": "^4.0.3"
+	},
+	"dependencies": {
+		"mysql-shaman": "^1.0.5"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "name": "internship-task-3",
+  "version": "1.0.0",
+  "description": "Task 3 of internship program is about updating an API server to add new functionality",
+  "main": "index.js",
+  "scripts": {
+    "restore": "shaman install node",
+    "build": "shaman build node",
+    "start": "shaman run sample-server",
+    "debug": "shaman build node && shaman run sample-server"
+  },
+  "author": "Kyle Brown",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "shaman-cli": "^1.0.12"
+  }
+}
